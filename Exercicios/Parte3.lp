@@ -3,7 +3,7 @@ min:400+100r0+1000+300r1+300+100r3+2000+400r4+1000+800r5+800+90r6+900+600+100r8+
 
 
 /* Restricoes */
-ri+r0+r1+r3+r4+r5+r6+r8+r10+r11=3;
+// #####-> ri+r0+r1+r3+r4+r5+r6+r8+r10+r11=3;
 
 /* Limite superior de reducao  */
 
