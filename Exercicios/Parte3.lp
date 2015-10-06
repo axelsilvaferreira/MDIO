@@ -21,25 +21,25 @@ r11<=2;
 
 //Precidencias temporais
 
-t0>=ti;
-t6>=ti;
-t1>=t0;
-t4>=t0;
-t4>=t7;
-t7>=t6;
-t10>=t6;
-t3>=t1;
-t3>=t4;
-t3>=t5;
-t5>=t4;
-t5>=t8;
-t8>=t7;
-t8>=t10;
-t11>=t10;
-tf>=t3;
-tf>=t5;
-tf>=t8;
-tf>=t11;
+t0>=ti+4;
+t6>=ti+5;
+t1>=t0+6;
+t4>=t0+9;
+t4>=t7+9;
+t7>=t6+6;
+t10>=t6+8;
+t3>=t1+2;
+t3>=t4+2;
+t3>=t5+2;
+t5>=t4+4;
+t5>=t8+4;
+t8>=t7+4;
+t8>=t10+4;
+t11>=t10+7;
+tf>=t3+0;
+tf>=t5+0;
+tf>=t8+0;
+tf>=t11+0;
 
 //Variaveis auxiliares
 tr0=t0-r0;
